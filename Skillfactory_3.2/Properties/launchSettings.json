@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Skillfactory_3.2": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
