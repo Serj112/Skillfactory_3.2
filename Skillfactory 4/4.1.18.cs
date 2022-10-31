@@ -19,11 +19,17 @@ class MainClass
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Your color is green!");
         }
-        else
+        else if (Color == "cyan")
         {
             Console.BackgroundColor = ConsoleColor.Cyan;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Your color is cyan!");
+        }
+        else
+        {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Your color is yellow!");
         }
     }
 }
